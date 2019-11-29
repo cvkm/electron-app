@@ -1,0 +1,49 @@
+ @font-face {
+    font-family: Montserrat;
+    src: url(./font/Montserrat-UltraLight.otf);
+  }
+
+label {
+    position: relative;
+    left:35%;
+    top:10px;
+    color:white;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.button {
+    position: relative;
+    top:80px;
+    width:45%;
+    left:25%;
+    height:40px;
+    border-radius: 5px;
+    background-color: turquoise;
+    border: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:black;
+    font-size: 15px;
+}
+.button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+input {
+    position: relative;
+    top:40px;
+    width:93.1%;
+    height:30px;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-weight:700;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+} 

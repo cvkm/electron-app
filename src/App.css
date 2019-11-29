@@ -1,22 +1,64 @@
-.App {
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-UltraLight.otf);
+}
+body {
+  background-image: url('./app.jpg');
+  
+}
+
+h1 {
   text-align: center;
+  color: rgb(0, 255, 221);
+  font-family: Montserrat;
 }
-
-.App-logo {
-  height: 40vmin;
+ul {
+  list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.collection-item {
+  padding-left:15px;
+  margin-bottom: -30px;
+  background-color: white;
+  border-left: 4px solid orange;
+  margin-right: 5%;
+  color:rgb(23, 138, 158);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.App-link {
-  color: #09d3ac;
+li::before {
+  content: "➢ ";
+  font-size: 32px;
+  color: rgb(0, 255, 242);
+  position: relative;
+  right:5.5%;
+  top:10px;
+}
+.collection-item:hover {
+  transform: scale(1.015);
+  cursor: pointer;
+}
+strike{
+  color:rgb(3, 173, 3);
+}
+.confirm {
+  position: relative;
+  height:60px;
+  width:60px;
+  left:88.4%;
+  bottom:28px;
+}
+.confirm:hover {
+  transform:scale(1.15);
+  cursor: pointer;
+}
+.edit {
+  position: relative;
+  bottom:15px;
+}
+.edit:focus{
+  border:none;
+  outline: none;
+  cursor: text;
+}
+.edit:hover {
+  cursor:text;
 }
